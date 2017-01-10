@@ -4,6 +4,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    opacity:1;
     
 }
 nav li {
@@ -40,6 +41,7 @@ nav .dropdown:hover:after{
 	content:' \25bc'
 }
 nav li:hover a {
+    opacity:0.90;
     color: limegreen;
     background-image: url("bar.jpg");
 }
