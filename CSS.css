@@ -40,10 +40,11 @@ nav .dropdown:hover:after{
 	//content:' \25bc'
 }
 nav li:hover a {
-    color:limegreen;
+    color: limegreen;
     background-image: url("bar.jpg");
 }
 nav li ul {
+
     float: right;
     left: 5px;
     opacity: 0;
@@ -58,6 +59,7 @@ nav li ul {
             transition: all .25s ease;
 }
 nav li:hover ul {
+    color: powderblue;
     opacity: 1;
     top: 10px;
     visibility: visible;
